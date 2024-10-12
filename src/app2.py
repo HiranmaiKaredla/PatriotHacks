@@ -1,5 +1,6 @@
 
 import streamlit as st
+from st_files_connection import FilesConnection
 from langchain_openai import ChatOpenAI
 from langchain.chains import create_sql_query_chain
 from langchain_community.utilities import SQLDatabase
@@ -7,9 +8,9 @@ from sqlalchemy import create_engine
 import re
 import pandas as pd
 import os
-from config import OPENAI_API_KEY
+#from config import OPENAI_API_KEY
 
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = st.scrects['OPENAI_API_KEY']
 st.header("PatriotHacks - Dream Home")
 
 df = pd.read_csv("./apartments_for_rent_classified_10K.csv", encoding="latin-1", sep=";")
