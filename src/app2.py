@@ -1,6 +1,5 @@
 
 import streamlit as st
-from st_files_connection import FilesConnection
 from langchain_openai import ChatOpenAI
 from langchain.chains import create_sql_query_chain
 from langchain_community.utilities import SQLDatabase
