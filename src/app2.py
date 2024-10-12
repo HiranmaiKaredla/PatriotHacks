@@ -9,11 +9,20 @@ import re
 import pandas as pd
 import os
 #from config import OPENAI_API_KEY
+import requests
+from io import StringIO
+from streamlit_gsheets import GSheetsConnection
 
-os.environ["OPENAI_API_KEY"] = st.scrects['OPENAI_API_KEY']
+os.environ["OPENAI_API_KEY"] =st.secrets['OPENAI_API_KEY']
 st.header("PatriotHacks - Dream Home")
 
-df = pd.read_csv("./apartments_for_rent_classified_10K.csv", encoding="latin-1", sep=";")
+# Create a connection object.
+conn = st.connection("gsheets", type=GSheetsConnection)
+
+df = conn.read()
+
+    
+#df = pd.read_csv("./apartments_for_rent_classified_10K.csv", encoding="latin-1", sep=";")
 engine = create_engine("sqlite:///properties.db")
 try:
     df.to_sql("properties", engine, index=False)
