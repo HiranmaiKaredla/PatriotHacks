@@ -4,3 +4,5 @@ langchain
 pandas
 sqlalchemy
 st-gsheets-connection
+langchain_openai
+langchain_community
