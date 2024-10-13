@@ -33,3 +33,4 @@ Next steps for HomeMap include incorporating more datasets to improve the accura
 - Developed Text-to-SQL generation for natural language queries
 - Implemented Named Entity Recognition (NER) for data extraction
 - Built a user-friendly interface with Streamlit
+- Built a recommendation system using neighborhood amenities to personalize housing recommendations
