@@ -19,9 +19,7 @@ We successfully built a functioning tool that uses multiple data sources to deli
 We learned a great deal about processing and integrating large, diverse datasets, and how to effectively apply machine learning models to real-world problems. We also gained experience in building scalable solutions using Azure and PySpark. Finally, working through challenges with data availability helped us improve our data wrangling and pipeline development skills.
 
 ## What's Next for HomeMap
-Next steps for HomeMap include incorporating more datasets to improve the accuracy of our predictions, especially around housing supply and climate impact. We also plan to enhance the user interface and add more customization options for users, allowing them to filter results based on specific preferences. Expanding the tool to cover more regions and offer deeper insights on housing trends is also on the roadmap.
-
-## Tasks Performed
+The next steps for HomeMap include incorporating more datasets to improve the accuracy of our predictions, especially around housing supply and climate impact. We also plan to enhance the user interface and add more customization options for users, allowing them to filter results based on specific preferences. Expanding the tool to cover more regions and offer deeper insights on housing trends is also on the roadmap.
 
 ## Tasks Performed
 
