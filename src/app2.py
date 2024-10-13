@@ -13,7 +13,7 @@ from io import StringIO
 from streamlit_gsheets import GSheetsConnection
 
 os.environ["OPENAI_API_KEY"] =st.secrets['OPENAI_API_KEY']
-st.header("PatriotHacks - Dream Home")
+st.header("PatriotHacks - Dream Home Map")
 
 # Create a connection object.
 conn = st.connection("gsheets", type=GSheetsConnection)
