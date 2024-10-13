@@ -33,7 +33,7 @@ db = SQLDatabase.from_uri("sqlite:///properties.db")
 
 chain = create_sql_query_chain(llm, db)
 
-text_input = st.text_input("Enter your query")
+text_input = st.text_input("Enter your query \n [Try something like]: Apartments in Seattle or 2bhk homes in Boston")
 
 if text_input:
     sql_query = chain.invoke({"question": "Get ids of {query} limit 10".format(query=text_input)})
