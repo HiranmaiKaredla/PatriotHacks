@@ -20,3 +20,16 @@ We learned a great deal about processing and integrating large, diverse datasets
 
 ## What's Next for HomeMap
 Next steps for HomeMap include incorporating more datasets to improve the accuracy of our predictions, especially around housing supply and climate impact. We also plan to enhance the user interface and add more customization options for users, allowing them to filter results based on specific preferences. Expanding the tool to cover more regions and offer deeper insights on housing trends is also on the roadmap.
+
+## Tasks Performed
+
+## Tasks Performed
+
+- Scouted and scraped housing data, including amenities
+- Generated geospatial data based on zip codes
+- Integrated Google Maps to find nearby essentials (schools, hospitals, etc.)
+- Predicted house prices using machine learning models
+- Estimated house evaluation metrics
+- Developed Text-to-SQL generation for natural language queries
+- Implemented Named Entity Recognition (NER) for data extraction
+- Built a user-friendly interface with Streamlit
